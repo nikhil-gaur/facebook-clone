@@ -1,0 +1,20 @@
+.app {
+  background-color: #f5efef;
+  height: 100%;
+  width: 100%;
+}
+
+.app__body {
+  display: flex;
+}
+
+/* @media screen and (max-width: 890) {
+  .header1 {
+    display: none;
+  }
+} */
+
+
+
+
+

@@ -1,0 +1,78 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.signInWithGoggle__button {
+    display: flex;
+    flex-direction: row !important;
+    background-color: #1778F2;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+    font-weight: 500;
+    border-radius: 10px;
+    
+}
+
+.signInWithGoggle__button__image {
+    width: 40px;
+    height: auto;
+    object-fit: contain;
+    margin: 10px;
+    
+    border-radius: 10px !important;
+  
+    
+    
+}
+
+.login__button {
+  
+    color: white;
+    background-color: #1778F2;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    object-fit: contain;
+    outline: none;
+    
+}
+
+
+.login > div > img {
+    object-fit: contain;
+    height: 150px;
+}
+
+.login > div {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 430px) {
+    .login__logo > img {
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .login > img {
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .login__button {
+        width: 100% !important;
+
+    }
+}
+

@@ -1,0 +1,24 @@
+.sidebar {
+    padding: 25px 10px;
+    flex: 0.33;
+}
+
+.sidebar__seprator {
+    color: black;
+}
+
+@media screen and (max-width: 885px) {
+    .sidebarHide {
+        display: none;
+    }
+    .sidebar {
+        flex: 1;
+        background-color: #ebf1f7;
+        height: 100vh !important;
+       
+    }
+    .sidebar__seprator {
+        color: black !important;
+    }
+    
+}

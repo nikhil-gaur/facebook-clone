@@ -1,0 +1,85 @@
+.storyReel {
+    display: flex;
+    width: 600px;
+}
+
+
+.storyAdder {
+    min-width: 120px;
+    height: 200px;
+    box-shadow: 0rem 0.3125rem 1.0625rem -0.4375rem rgba(0, 0, 0, 0.75);
+    border-radius: 0.625rem;
+    margin-right: 0.625rem;
+    transition: transform 100ms ease-in;
+    background-color: #b5bbc0;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    
+}
+
+.storyAdder > progress {
+    width: 80%;
+}
+
+.storyAdder__text {
+    margin: 10px;
+    color: white;
+}
+
+.storyAdder__button {
+    width: 50px;
+    height: auto;
+}
+
+.storyReelContainer {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+
+.storyUploader__button {
+    background-color: green !important;
+    color: white !important;
+    font-weight: 500 !important;
+    border-radius: 10px !important;
+}
+
+
+
+@media screen and (max-width: 885px) {
+    .storyReelContainer {
+      
+       width: 100%;
+       
+    }
+    .storyReel {
+        
+        max-width: 300px !important
+    }
+    .storyUpload__progress {
+        margin-left: 10px;
+        width: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    .storyUploader__input {
+        width: 100px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        object-fit: contain;
+    }
+    .storyUploader__button {
+        margin-left: 10px !important;
+    }
+    .storyAdder__button {
+        margin-left: 25px !important;
+    
+    }
+ 
+}
+
+
